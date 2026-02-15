@@ -70,9 +70,9 @@ Your task is to create a COMPLETE, CONSISTENT, and READY-TO-IMPLEMENT specificat
    - Conversation history per user
 
 **Environment Variables:**
-- COHERE_API_KEY=REMOVED_COHERE_KEY
-- BETTER_AUTH_SECRET=Q9TfixbrudNqlZjAKGGrMEBnPIkvwqBB
-- DATABASE_URL (existing Neon DB)
+- COHERE_API_KEY={your_cohere_api_key_here}
+- BETTER_AUTH_SECRET={your_better_auth_secret_here}
+- DATABASE_URL={your_neon_database_url}
 
 **Deliverables Required:**
 1. Complete feature specification (chatbot.md)

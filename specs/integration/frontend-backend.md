@@ -73,10 +73,10 @@ NEXT_PUBLIC_BETTER_AUTH_URL=http://localhost:8000
 DATABASE_URL=postgresql://user:password@host/database?sslmode=require
 
 # Authentication
-BETTER_AUTH_SECRET=Q9TfixbrudNqlZjAKGGrMEBnPIkvwqBB
+BETTER_AUTH_SECRET=your_better_auth_secret_here
 
 # AI Integration (Phase III)
-COHERE_API_KEY=REMOVED_COHERE_KEY
+COHERE_API_KEY=your_cohere_api_key_here
 
 # CORS (if needed)
 ALLOWED_ORIGINS=http://localhost:3000,https://yourdomain.com

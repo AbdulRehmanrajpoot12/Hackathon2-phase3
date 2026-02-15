@@ -19,7 +19,7 @@ co = cohere.Client(api_key=os.getenv("COHERE_API_KEY"))
 
 ### Environment Variable
 ```bash
-COHERE_API_KEY=REMOVED_COHERE_KEY
+COHERE_API_KEY=your_cohere_api_key_here
 ```
 
 ## Cohere Chat with Tool Calling

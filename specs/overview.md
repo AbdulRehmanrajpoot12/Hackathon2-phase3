@@ -159,8 +159,8 @@ Building upon Phase II's authentication and task management foundation, Phase II
 ```bash
 # Backend (.env)
 DATABASE_URL=postgresql://user:password@host/database?sslmode=require
-BETTER_AUTH_SECRET=Q9TfixbrudNqlZjAKGGrMEBnPIkvwqBB
-COHERE_API_KEY=REMOVED_COHERE_KEY
+BETTER_AUTH_SECRET=your_better_auth_secret_here
+COHERE_API_KEY=your_cohere_api_key_here
 
 # Frontend (.env.local)
 NEXT_PUBLIC_API_URL=http://localhost:8000

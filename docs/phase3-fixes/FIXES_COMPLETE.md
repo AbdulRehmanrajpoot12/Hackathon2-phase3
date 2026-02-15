@@ -273,7 +273,7 @@ const handleToggleComplete = async (taskId: string) => {
 **Solution**: Backend .env already had the correct secret matching frontend
 
 **File**: `backend/.env`
-**Status**: Already correct - `BETTER_AUTH_SECRET=Q9TfixbrudNqlZjAKGGrMEBnPIkvwqBB`
+**Status**: Already correct - `BETTER_AUTH_SECRET=your_better_auth_secret_here`
 
 ---
 

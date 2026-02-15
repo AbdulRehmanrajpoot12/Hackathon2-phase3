@@ -31,7 +31,7 @@ Prepare the existing FastAPI backend to support Cohere API integration and chat 
 **Actions:**
 ```bash
 # Add to .env
-COHERE_API_KEY=REMOVED_COHERE_KEY
+COHERE_API_KEY=your_cohere_api_key_here
 ```
 
 **Specs:** @specs/integration/ai-cohere.md (Environment Variable section)
