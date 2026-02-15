@@ -1,0 +1,233 @@
+# ============================================
+# Environment Variables & Secrets
+# ============================================
+# CRITICAL: Never commit secrets or API keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+*.env
+.envrc
+
+# API keys and credentials
+COHERE_API_KEY
+BETTER_AUTH_SECRET
+DATABASE_URL
+*.key
+*.pem
+*.crt
+*.cer
+secrets/
+credentials/
+
+# ============================================
+# Node.js / Next.js (Frontend)
+# ============================================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Next.js cache
+.next/cache/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# ============================================
+# Python / FastAPI (Backend)
+# ============================================
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+virtualenv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+wheels/
+*.whl
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Database & Logs
+# ============================================
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+database.db
+
+# PostgreSQL dumps
+*.sql
+*.dump
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+server.log
+backend.log
+frontend.log
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, IntelliJ)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# OS Files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+.cache/
+tmp/
+temp/
+
+# ============================================
+# Build & Deployment
+# ============================================
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# ============================================
+# Testing & Coverage
+# ============================================
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# ============================================
+# Miscellaneous
+# ============================================
+# Debug files
+debug.log
+*.pid
+*.seed
+
+# Optional npm cache
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Null files
+nul
+NUL
+
+# ============================================
+# IMPORTANT: Code Folders NOT Ignored
+# ============================================
+# All source code folders are committed:
+# ✅ frontend/lib/        (API client, hooks, utilities)
+# ✅ frontend/components/ (React components)
+# ✅ frontend/app/        (Next.js app router)
+# ✅ backend/routes/      (FastAPI routes)
+# ✅ backend/dependencies/(Auth dependencies)
+# ✅ backend/models/      (Database models)
+# ✅ backend/services/    (Business logic)
+# ✅ backend/tools/       (MCP-style tools)
+# ✅ specs/               (Feature specifications)
+# ✅ docs/                (Documentation)

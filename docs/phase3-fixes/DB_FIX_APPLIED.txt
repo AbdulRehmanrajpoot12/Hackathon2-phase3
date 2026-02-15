@@ -1,0 +1,20 @@
+
+DATABASE CONNECTION FIX APPLIED ✅
+
+File Modified: backend/db.py
+
+Changes:
+- Added QueuePool for connection pooling
+- pool_pre_ping=True (tests connections before use)
+- pool_recycle=3600 (recycles connections every hour)
+- TCP keepalives configured
+- Connection timeout and retry logic
+
+IMPORTANT: Backend server must be restarted for changes to take effect.
+
+To restart backend:
+1. Stop current backend (Ctrl+C in backend terminal)
+2. Restart: cd backend && python -m uvicorn main:app --reload --port 8080
+
+This will fix the 'SSL connection has been closed unexpectedly' error.
+
