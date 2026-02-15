@@ -11,7 +11,7 @@ import { X, Trash2 } from 'lucide-react';
 import { MessageList, Message } from './MessageList';
 import { ChatInput } from './ChatInput';
 import { sendChatMessage, ChatResponse } from '@/lib/api/chat';
-import { useQueryClient } from '@tanstack/react-query';
+import { useQueryClient, QueryClient } from '@tanstack/react-query';
 import { TASKS_QUERY_KEY } from '@/lib/hooks/useTasks';
 
 export interface ChatModalProps {
@@ -26,7 +26,7 @@ export function ChatModal({ isOpen, onClose }: ChatModalProps) {
   const [error, setError] = useState<string | null>(null);
 
   // Get QueryClient safely
-  let queryClient;
+  let queryClient: QueryClient | undefined;
   try {
     queryClient = useQueryClient();
   } catch (e) {
